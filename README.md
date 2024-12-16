@@ -22,7 +22,7 @@ To build FVCOM-FABM-PCLake, first compile FABM and PCLake and then link FVCOM to
 Compile FVCOM with FABM support, please edit make.inc as follows to set FLAG_25 and compile FVCOM normally. If FABM has been installed to a custom location, please adjust the BIOLIB and BIOINCS paths as needed.
 
 ```
-              # Online configuration  
+            # Online configuration  
             FLAG_25 = -DFABM  
             BIOLIB       = -L$(HOME)/local/fabm/fvcom/lib -lfabm  
             BIOINCS      = -I$(HOME)/local/fabm/fvcom/include  
