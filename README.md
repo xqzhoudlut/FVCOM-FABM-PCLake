@@ -7,7 +7,7 @@ To build FVCOM-FABM-PCLake coupled model, first compile FABM and PCLake and then
 2.Extract the FABM source code (the following example code extracts the code to $HOME/Code/fabm/src)  
 3.Extract the PCLake source code (the following example code extracts the code to $HOME/Code/PCLake/src)  
 4.Ensure that CMake 2.8.8 or later is installed.  
-5.compile FABM and PCLake  
+5.Compile FABM and PCLake  
 
 ```
   cd $HOME/Code/fabm/src
