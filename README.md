@@ -1,5 +1,5 @@
 # FVCOM-FABM-PCLake
-To build FVCOM-FABM-PCLake, first compile FABM and PCLake and then link FVCOM to it.
+To build FVCOM-FABM-PCLake coupled model, first compile FABM and PCLake and then link FVCOM to it.
 
 ## Complite FABM and PCLake
 
